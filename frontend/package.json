@@ -1,6 +1,6 @@
 {
-  "homepage": "https://hitalloazevedo.github.io/aromas-do-nordeste-frontend",
-  "name": "aromas-do-nordeste-frontend",
+  "homepage": "https://hitalloazevedo.github.io/aromas-do-nordeste",
+  "name": "aromas-do-nordeste",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,11 +11,11 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-  },
+  },    
   "dependencies": {
     "axios": "^1.7.2",
     "localforage": "^1.10.0",
-    "match-sorter": "^6.3.4",
+    "match-sorter": "^6.3.4",   
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",

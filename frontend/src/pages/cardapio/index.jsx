@@ -13,7 +13,6 @@ const Cardapio = () => {
     
     const getPlates = async () => {
         axios.get(`${baseUrl}/cardapio`).then(response => {
-            console.log(response.data)
             setData(response.data)
         })
     }
@@ -32,7 +31,7 @@ const Cardapio = () => {
                 <h1>Cardápio</h1>
                 <div className="container">
                     {data != undefined ? data.map((plate) => {
-                        return <CardPrato nomePrato={plate.plate_name} imageUrl={plate.image_url} descricao={plate.plate_description}/>
+                        return <CardPrato key={plate.plate_name} nomePrato={plate.plate_name} imageUrl={plate.image_url} descricao={plate.plate_description}/>
                     }) : ''}
                 </div>
             </div>

@@ -27,11 +27,11 @@ const Dashboard = () => {
         <>
             <h1 className='title'>Dashboard</h1>
             <div className="newPlate">
-                <Link className='newPlateButton' to={'/aromas-do-nordeste-frontend/dashboard/new'}>Adicionar prato</Link>
+                <Link className='newPlateButton' to={'/aromas-do-nordeste/dashboard/new'}>Adicionar prato</Link>
             </div>
             <div className="platesContainer">
                 {data != undefined ? data.map(plate => {
-                    return <PlateItem name={plate.plate_name} id={plate.id} imageUrl={plate.image_url} description={plate.plate_description} setData={setData}/>
+                    return <PlateItem key={plate.plate_name} name={plate.plate_name} id={plate.id} imageUrl={plate.image_url} description={plate.plate_description} setData={setData}/>
                 }) : ''}
             </div>
         </>

@@ -84,14 +84,14 @@ const Header = ({option}) => {
                 <nav>
                         {option ? 
                         <ul>
-                          <li><Link to={'/aromas-do-nordeste-frontend'} onClick={hideMenu} className={`link ${estadoNav}`}>Início</Link></li>
+                          <li><Link to={'/aromas-do-nordeste'} onClick={hideMenu} className={`link ${estadoNav}`}>Início</Link></li>
                           <li><a onClick={hideMenu} className={`link ${estadoNav}`}>Fazer pedido</a></li>
                         </ul>
                       : 
                       <ul>
                         <li><a href="#home" onClick={hideMenu} className={`link ${estadoNav}`}>Início</a></li>
                         <li><a href="#aboutus" onClick={hideMenu} className={`link ${estadoNav}`}>Sobre nós</a></li>
-                        <li><Link to={'/aromas-do-nordeste-frontend/cardapio'} onClick={hideMenu} className={`link ${estadoNav}`}>Cardápio</Link></li>
+                        <li><Link to={'/aromas-do-nordeste/cardapio'} onClick={hideMenu} className={`link ${estadoNav}`}>Cardápio</Link></li>
                         <li><a href="#" onClick={hideMenu} className={`link ${estadoNav}`}>Fazer pedido</a></li>
                       </ul>
                       }

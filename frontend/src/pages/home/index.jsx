@@ -15,7 +15,7 @@ const Home = () => {
                         <h3>ao</h3>
                     </div>
                     <h1>AROMAS DO NORDESTE</h1>
-                    <Button value='Explorar' link='/aromas-do-nordeste-frontend/cardapio' width={150} color={1}/>
+                    <Button value='Explorar' link='/aromas-do-nordeste/cardapio' width={150} color={1}/>
                 </div>
             </div>
             <div id="aboutus">

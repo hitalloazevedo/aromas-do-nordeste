@@ -7,23 +7,23 @@ import NewPlate from "./pages/newPlate";
 
 const router = createBrowserRouter([
     {
-        path: '/aromas-do-nordeste-frontend',
+        path: '/aromas-do-nordeste',
         element: <Home/>,
     },
     {
-        path: '/aromas-do-nordeste-frontend/cardapio',
+        path: '/aromas-do-nordeste/cardapio',
         element: <Cardapio/>
     },
     {
-        path: '/aromas-do-nordeste-frontend/dashboard',
+        path: '/aromas-do-nordeste/dashboard',
         element: <Dashboard/>
     },
     {
-        path: '/aromas-do-nordeste-frontend/dashboard/edit/:id',
+        path: '/aromas-do-nordeste/dashboard/edit/:id',
         element: <EditPlate/>
     },
     {
-        path: '/aromas-do-nordeste-frontend/dashboard/new',
+        path: '/aromas-do-nordeste/dashboard/new',
         element: <NewPlate/>
     }
 ])
