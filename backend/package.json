@@ -1,0 +1,26 @@
+{
+  "name": "aromas-do-nordeste",
+  "version": "1.0.0",
+  "description": "Api que fornece os dados para o frontend consumir",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && nodemon ./dist/src/index.js",
+    "start": "tsc && node ./dist/src/index.js"
+  },
+  "author": "Hitallo Azevedo",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "@google-cloud/storage": "^7.14.0",
+    "@supabase/supabase-js": "^2.43.4",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^13.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
