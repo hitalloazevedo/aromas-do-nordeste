@@ -1,0 +1,14 @@
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    #footer {
+        background: url('../../assets/footer800.jpg') no-repeat;
+        background-size: cover;
+        height: 270px;
+    }
+}
+@media screen and (min-width: 1001px) {
+    #footer {
+        background: url('../../assets/background.jpg') no-repeat;
+        background-size: cover;
+        height: 270px;
+    }
+}

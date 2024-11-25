@@ -1,0 +1,15 @@
+.cardapio {
+    margin-top: 9rem;
+}
+
+.cardapio > h1 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
