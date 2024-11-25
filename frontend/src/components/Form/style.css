@@ -1,0 +1,14 @@
+.form {
+    margin: auto;
+    margin-top: 3rem;
+    background-color: rgb(202, 166, 120);
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
